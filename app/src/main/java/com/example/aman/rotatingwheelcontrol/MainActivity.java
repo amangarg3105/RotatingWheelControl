@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
         super.onPostResume();
         if (sentToSettings) {
             if (ActivityCompat.checkSelfPermission(MainActivity.this, android.Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-                //Got Permission
+               
                 proceedAfterPermission();
             }
         }
